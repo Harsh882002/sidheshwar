@@ -27,11 +27,13 @@ const Header = () => {
                     {/* Left Logo */}
                     <div className="w-24 h-24 rounded-full border-2 border-primary overflow-hidden flex items-center justify-center bg-white">
                         <img
-                            src="/logo/college.png"
+                            src="/logo-bg/college.png"
                             alt="College Logo"
                             className="w-full h-full object-contain"
                         />
                     </div>
+
+
 
                     {/* Center Text */}
                     <div className="text-center flex-1">
