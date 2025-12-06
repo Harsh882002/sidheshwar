@@ -25,13 +25,14 @@ const Header = () => {
                 <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
 
                     {/* Left Logo */}
-                    <div className="w-24 h-24 rounded-full border-2 border-primary overflow-hidden flex items-center justify-center bg-white">
+                    <div className="w-24 h-24 overflow-visible flex items-center justify-center">
                         <img
                             src="/logo-bg/college.png"
                             alt="College Logo"
-                            className="w-full h-full object-cover"
+                            className="w-full h-full object-contain"
                         />
                     </div>
+
 
 
 
@@ -50,13 +51,14 @@ const Header = () => {
                     </div>
 
                     {/* Right Logo */}
-                    <div className="w-24 h-24 rounded-full border-2 border-primary overflow-hidden flex items-center justify-center bg-white">
+                    <div className="w-24 h-24 overflow-visible flex items-center justify-center">
                         <img
                             src="/logo-bg/kksu.png"
                             alt="University Logo"
                             className="w-full h-full object-contain"
                         />
                     </div>
+
 
                 </div>
             </div>
