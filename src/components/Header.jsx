@@ -29,9 +29,10 @@ const Header = () => {
                         <img
                             src="/logo-bg/college.png"
                             alt="College Logo"
-                            className="w-full h-full object-contain"
+                            className="w-full h-full object-cover"
                         />
                     </div>
+
 
 
 
