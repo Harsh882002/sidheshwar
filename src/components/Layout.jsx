@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import { Helmet } from 'react-helmet-async';
+import ImagePopup from './ImagePopup';
 
 const Layout = ({ children, title = "Shri Siddheshwar Senior College" }) => {
     return (
@@ -10,6 +11,8 @@ const Layout = ({ children, title = "Shri Siddheshwar Senior College" }) => {
                 <title>{title} | UGC Compliant</title>
             </Helmet>
             <Header />
+              <ImagePopup />
+
             <main className="flex-grow bg-gray-50">
                 {children}
             </main>

@@ -10,3 +10,13 @@
     @apply font-serif;
   }
 }
+
+
+.media-card {
+    transition: all 0.9s ease;
+}
+
+.media-card.show {
+    opacity: 1;
+    transform: translateY(0);
+}

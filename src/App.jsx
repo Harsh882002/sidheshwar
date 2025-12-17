@@ -9,6 +9,7 @@ import Admissions from './pages/Admissions';
 import StudentLife from './pages/StudentLife';
 import Contact from './pages/Contact';
 import SearchResults from './pages/SearchResults';
+import Media from './pages/Media';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/academics" element={<Academics />} />
           <Route path="/admissions" element={<Admissions />} />
           <Route path="/student-life" element={<StudentLife />} />
+          <Route path='/media' element={<Media />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/search" element={<SearchResults />} />
         </Routes>
